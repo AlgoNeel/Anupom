@@ -75,7 +75,7 @@
             <div class="balloon"></div>
             <div class="balloon"></div>
         </div>
-            <p>[Must click one button at least.]</p>
+            
         <button onclick="showMessage()">Reveal Your Surprise 🎁</button>
         <p id="birthdayMessage" style="display: none; font-size: 20px; font-weight: bold; color: darkred;"></p>
         
@@ -86,10 +86,12 @@
         <p id="truthMessage" style="display: none; font-size: 18px; font-weight: bold; color: navy;"></p>
         <p id="dareMessage" style="display: none; font-size: 18px; font-weight: bold; color: green;"></p>
     </div>
+	
+	<p>A project by Swapneel Das</p>
     
     <script>
         function showMessage() {
-            document.getElementById("birthdayMessage").innerText = "Click one Button, If you are not a gay, hahahahahahaha";
+            document.getElementById("birthdayMessage").innerText = "Click one Button, If you are not a gay, hahahahahahaha.";
             document.getElementById("birthdayMessage").style.display = "block";
             document.getElementById("extraButtons").style.display = "block";
         }
